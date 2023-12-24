@@ -2,7 +2,7 @@
 
 A stunning portfolio project showcasing your creative journey.
 
-👉 **[Live Demo](https://emfolio.vercel.app/)** 👈
+👉 **[Live Demo]** 👈
 
 # Introduction
 
@@ -36,7 +36,7 @@ A stunning portfolio project showcasing your creative journey.
 ## 1. Clone the repository:
 
 ```
-git clone https://github.com/aakarkun/emfolio.git
+git clone https://github.com/saileshkhadka/sailesh-portfolio.git
 ```
 
 ## 2. Install dependencies
@@ -67,7 +67,7 @@ This project is licensed under the **MIT License**.
 
 ---
 
-📧 **Contact:** **[info@empresaoriginal.com](mailto:your.email@example.com)**
+📧 **Contact:** **[saileshkhadka1@gmail.com](mailto:your.email@example.com)**
 
 Follow me on [LinkedIn](https://www.linkedin.com/in/sailesh-khadka08/) for updates and inspiration! ✨
 
