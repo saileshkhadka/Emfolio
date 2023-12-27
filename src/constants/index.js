@@ -132,7 +132,7 @@ import {
     },
     {
       title: "IT Support Engineer - Internship (Contract)",
-      company_name: "3QSPACE LLC | Dubai, United Arab Emirates",
+      company_name: "3QSpace LLC | SHAMS Free Zone, Sharjah, UAE",
       icon: threeqspace,
       iconBg: "#fff",
       date: "1st Nov 2023- 30 Dec 2023",
