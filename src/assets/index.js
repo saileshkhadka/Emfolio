@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import cloud from "./cloud.png";
 import sre from "./sre.png";
@@ -34,6 +34,9 @@ import voeux from "./company/voeux.jpeg";
 import houseappartment from "./houseappartment.png";
 import pythondocker from "./pythondocker.png";
 import rails from "./rails.png";
+import threetier from "./threetier.png"
+import serverless from "./serverless.png"
+
 
 
 
@@ -68,4 +71,6 @@ export {
   rails,
   voeux,
   threeqspace,
+  serverless,
+  threetier
 };
