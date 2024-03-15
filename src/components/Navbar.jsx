@@ -9,6 +9,11 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
+
+  const downloadresume = (e) => {
+    window.open(`../../public/sailesh.pdf`,"_blank")
+  
+  }
   return (
     <nav
       className={`
@@ -36,7 +41,11 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive(link.title)}
           >
-            <a href={`#${link.id}`}>{link.title}</a>
+               {link.title === 'Resume' ? (
+                  <a onClick={(e) => downloadresume(e)} target="_blank" >{link.title} </a>
+                ) : (
+                  <a href={`#${link.id}`}>{link.title} </a>
+                )}
           </li>
         ))}
       </ul>
@@ -60,15 +69,16 @@ const Navbar = () => {
                 className={`${active === link.title ? "text-white" : "text-secondary"
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                 onClick={() => {
-
+                  console.log(link.title);
                   setActive(link.title);
                   setToggle(!toggle);
                 }}
               >
+               
                 {link.title === 'Resume' ? (
-                  <a onClick={() => window.open('/resume', '_blank', 'noopener noreferrer')}>{link.title}</a>
+                  <a onClick={(e) => downloadresume(e)} >{link.title} 121212</a>
                 ) : (
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a href={`#${link.id}`}>{link.title} 121212121212121212</a>
                 )}
 
               </li>
