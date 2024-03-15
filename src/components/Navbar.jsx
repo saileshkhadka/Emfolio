@@ -11,7 +11,7 @@ const Navbar = () => {
 
 
   const downloadresume = (e) => {
-    window.open(`../../public/sailesh.pdf`,"_blank")
+    window.open(`../../sailesh.pdf`,"_blank")
   
   }
   return (
@@ -76,9 +76,9 @@ const Navbar = () => {
               >
                
                 {link.title === 'Resume' ? (
-                  <a onClick={(e) => downloadresume(e)} >{link.title} 121212</a>
+                  <a onClick={(e) => downloadresume(e)} >{link.title}</a>
                 ) : (
-                  <a href={`#${link.id}`}>{link.title} 121212121212121212</a>
+                  <a href={`#${link.id}`}>{link.title}</a>
                 )}
 
               </li>

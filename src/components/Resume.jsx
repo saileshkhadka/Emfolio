@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 const Resume = () => {
   useEffect(() => {
     const link = document.createElement('a');
-    link.href = `${window.location.origin}/public/sailesh.pdf`;
+    link.href = `${window.location.origin}/sailesh.pdf`;
     link.download = 'sailesh.pdf';
     document.body.appendChild(link);
     link.click();
