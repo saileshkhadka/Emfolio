@@ -27,6 +27,7 @@ const ProjectCard = ({
             <img
               src={image}
               alt={name}
+              draggable = "false"
               className="w-full h-full object-cover rounded-2xl"
             />
 
