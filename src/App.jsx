@@ -10,7 +10,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
-  Resume 
+  Resume
 } from "./components";
 
 const App = () => {
