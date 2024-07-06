@@ -20,6 +20,7 @@ import {
     ittraining,
     threeqspace,
     voeux,
+    devcentre,
     rails,
     houseappartment,
     pythondocker
@@ -116,11 +117,26 @@ import {
   
   const experiences = [
     {
+      title: "DevOps Engineer - Permanent",
+      company_name: "Dev Centre House Ireland | Dubai, United Arab Emirates",
+      icon: devcentre,
+      iconBg: "#ead8d0",
+      date: "25 Apr 2024 - Present",
+      points: [
+        "Proficiency in developing, deploying, and debugging cloud-based applications using AWS Lambda with serverless framework",
+        "Implement the best practices for monitoring applications and create recommendations on how the application team can improve their applications.",
+        "Knowledge in using CI/CD pipeline using github actions to deploy applications on AWS",
+        "Have solid AWS services experience including in VPC, EC2, Ebs, S3, ASG, Cloudwatch, Lambda, and Load Balancer",
+        "Experience working with relational databases like AWS RDS and PostgreSQL, Mysql",
+        "Experienced in writing cloudformation template and deploy the infrastructre using serverless framework to AWS"
+      ],
+    },
+    {
       title: "DevOps Engineer - Contract",
       company_name: "Voeux Information Technology LLC | Dubai, United Arab Emirates",
       icon: voeux,
       iconBg: "#ead8d0",
-      date: "14 Dec 2023 - Present",
+      date: "14 Jan 2024 - 24 Apr 2024",
       points: [
         "Ensure that the infrastructure is scalable, reliable, and secure.",
         "Establish and maintain continuous integration and deployment pipelines,ensuring that code changes are tested, built, and deployed in a consistent and automated way  .",

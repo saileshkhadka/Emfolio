@@ -66,7 +66,9 @@ const Navbar = () => {
                 }}
               >
                 {link.title === 'Resume' ? (
-                  <a onClick={() => window.open('/resume', '_blank', 'noopener noreferrer')}>{link.title}</a>
+                                  <a href={`${window.location.origin}/pages/sailesh.pdf`} download>
+                                  {link.title}
+                               </a>
                 ) : (
                   <a href={`#${link.id}`}>{link.title}</a>
                 )}

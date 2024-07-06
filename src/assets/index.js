@@ -28,6 +28,7 @@ import compliancequest from "./company/compliancequest.jpeg";
 import ittraining from "./company/ittraining.jpeg";
 import threeqspace from "./company/threeqspace.jpeg";
 import voeux from "./company/voeux.jpeg";
+import devcentre from "./company/devcentre.png";
 
 
 
@@ -68,4 +69,5 @@ export {
   rails,
   voeux,
   threeqspace,
+  devcentre
 };

@@ -1,18 +1,21 @@
-// Resume.jsx
 import React, { useEffect } from 'react';
 
 const Resume = () => {
-  useEffect(() => {
+ useEffect(() => {
     const link = document.createElement('a');
     link.href = `${window.location.origin}/pages/sailesh.pdf`;
     link.download = 'sailesh.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }, []);
-  
 
-  return;
+    const newWindow = window.open('', '_blank');
+    newWindow.document.body.appendChild(link);
+
+    link.click();
+
+    newWindow.document.body.removeChild(link);
+    newWindow.close();
+ }, []);
+  
+ return null;
 };
 
 export default Resume;
