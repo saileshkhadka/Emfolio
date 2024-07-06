@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 const Resume = () => {
  useEffect(() => {
     const link = document.createElement('a');
-    link.href = `${window.location.origin}/pages/sailesh.pdf`;
+    link.href = `${window.location.origin}/sailesh.pdf`;
     link.download = 'sailesh.pdf';
 
     const newWindow = window.open('', '_blank');

@@ -22,8 +22,11 @@ import {
     voeux,
     devcentre,
     rails,
+    threetier,
+    serverless,
     houseappartment,
-    pythondocker
+    pythondocker,
+    awsecs
   } from "../assets";
   
   export const navLinks = [
@@ -55,12 +58,12 @@ import {
       icon: sre,
     },
     {
-      title: "IT Professional",
-      icon: backend,
-    },
-    {
       title: "Cloud Administration",
       icon: cloud,
+    },
+    {
+      title: "IT Professional",
+      icon: backend,
     },
   ];
   
@@ -147,7 +150,7 @@ import {
       ],
     },
     {
-      title: "IT Support Engineer - Internship (Contract)",
+      title: "IT Support Engineer | Contract",
       company_name: "3QSpace LLC | SHAMS Free Zone, Sharjah, UAE",
       icon: threeqspace,
       iconBg: "#fff",
@@ -234,6 +237,69 @@ import {
   
   const projects = [
     {
+      name: "Deploy a python based django app on AWS ECS using IAC",
+      description:
+        "To deploy a django app in aws ecs using terraform to maintain the high availability and fault tolerent using terraform.",
+      tags: [
+        {
+          name: "aws",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "terraform",
+          color: "green-text-gradient",
+        },
+        {
+          name: "docker",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: awsecs,
+      source_code_link: "https://github.com/saileshkhadka/terraform-django-app-ecs",
+    },
+    {
+      name: "Setup and Configure a serverless Architecture in AWS",
+      description:
+        "Configure serverless architecture to build and run applications and serives without having to manage the infrastructure.",
+      tags: [
+        {
+          name: "aws",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "serverless",
+          color: "green-text-gradient",
+        },
+        {
+          name: "api-gateway",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: serverless,
+      source_code_link: "https://github.com/saileshkhadka/fullstack-serverless-devops",
+    },
+    {
+      name: "Setup and Configure a Three Tier Architecture in AWS",
+      description:
+        "Configure three tier architecture to maintain scalability, availability and security by spreading application into multiple availability zones",
+      tags: [
+        {
+          name: "aws",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "server",
+          color: "green-text-gradient",
+        },
+        {
+          name: "networks",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: threetier,
+      source_code_link: "https://github.com/saileshkhadka/aws-three-tier-terraform",
+    },
+    {
       name: "Deploy Ruby and Rails devops App using Vagrant",
       description:
         "Simple devops application built with the Ruby on Rails devops framework in a Vagrant box",
@@ -255,27 +321,6 @@ import {
       source_code_link: "https://github.com/saileshkhadka/Rails-app-in-a-Vagrant-box",
     },
     {
-      name: "House Appartment System",
-      description:
-        "House Appartment System devops Application built in Asp .Net MVC where user and create, update, delete and retrieve the records and details.",
-      tags: [
-        {
-          name: "asp",
-          color: "green-text-gradient",
-        },
-        {
-          name: "angular",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "sql",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: houseappartment,
-      source_code_link: "https://github.com/saileshkhadka/FinalProjApartment",
-    },
-    {
       name: "Deploy Python app with Jenkins CI and Docker",
       description:
         "Simple python application deployments using jenkins server and docker.",
@@ -294,7 +339,28 @@ import {
         },
       ],
       image: pythondocker,
-      source_code_link: "https://github.com/saileshkhadka/wordpress-docker/tree/main",
+      source_code_link: "https://github.com/saileshkhadka/python-docker-container",
+    },
+    {
+      name: "Create a web app named House Appartment System",
+      description:
+        "House Appartment System devops Application built in Asp .Net MVC where user and create, update, delete and retrieve the records and details.",
+      tags: [
+        {
+          name: "asp",
+          color: "green-text-gradient",
+        },
+        {
+          name: "angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: houseappartment,
+      source_code_link: "https://github.com/saileshkhadka/FinalProjApartment",
     },
   ];
   
