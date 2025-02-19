@@ -126,12 +126,16 @@ import {
       iconBg: "#ead8d0",
       date: "25 Apr 2024 - Present",
       points: [
+        "Design and Architect cloud based application by following best practices to maintain security, scalability and reliability",
+        "Worked directly with clients and stakeholders to understand the better workflow of the application for deployments.",
         "Proficiency in developing, deploying, and debugging cloud-based applications using AWS Lambda with serverless framework",
         "Implement the best practices for monitoring applications and create recommendations on how the application team can improve their applications.",
-        "Knowledge in using CI/CD pipeline using github actions to deploy applications on AWS",
-        "Have solid AWS services experience including in VPC, EC2, Ebs, S3, ASG, Cloudwatch, Lambda, and Load Balancer",
-        "Experience working with relational databases like AWS RDS and PostgreSQL, Mysql",
-        "Experienced in writing cloudformation template and deploy the infrastructre using serverless framework to AWS"
+        "Well experienced in using CI/CD pipeline using github actions, Codepipeline to deploy applications on AW",
+        "Solid experience on AWS services likes; EC2, EBS, S3, ASG, Cloudwatch, Lambda, VPC, Eventbridge, ALB, IAM, APIGateway, Cloudfront and many more",
+        "Experienced working with relational databases with AWS RDS like PostgreSQL, Mysq",
+        "Experienced on IAC with cloudformation template and terraform template to deploy the infrastructre to AWS with maintainig best principles.",
+        "Implemented DDoS attack mitigation strategies using OWASP guidelines and configured CORS policies to enhance application security and prevent unauthorized access",
+        "Prepared well documented of overall workflow and architecture to maintain the proper documentation"
       ],
     },
     {

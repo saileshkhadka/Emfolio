@@ -42,7 +42,7 @@ const About = () => {
       >
         I have proficient skills in SRE, DevOps and System Administration, my expertise
         extends to AWS, Azure, CI/CD pipeline, multiple Linux and Windows Server
-        and some basic Security practices. On the otherside I have experience of
+        and basic Security practices. On the otherside I have experience of
         scripting and maintaining IT Automation empowering me to excel in
         diverse technological landscapes. I swiftly embrace novel concepts,
         collaborating closely with clients to architect efficient, scalable,
