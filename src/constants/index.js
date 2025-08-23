@@ -126,7 +126,7 @@ import {
       iconBg: "#ead8d0",
       date: "25 Apr 2024 - Present",
       points: [
-        "Design and Architect cloud based application by following best practices to maintain security, scalability and reliability",
+        "Design and Architect cloud based application on AWS by following best practices to maintain security, scalability and reliability",
         "Worked directly with clients and stakeholders to understand the better workflow of the application for deployments.",
         "Proficiency in developing, deploying, and debugging cloud-based applications using AWS Lambda with serverless framework",
         "Implement the best practices for monitoring applications and create recommendations on how the application team can improve their applications.",
@@ -134,7 +134,7 @@ import {
         "Solid experience on AWS services likes; EC2, EBS, S3, ASG, Cloudwatch, Lambda, VPC, Eventbridge, ALB, IAM, APIGateway, Cloudfront and many more",
         "Experienced working with relational databases with AWS RDS like PostgreSQL, Mysq",
         "Experienced on IAC with cloudformation template and terraform template to deploy the infrastructre to AWS with maintainig best principles.",
-        "Implemented DDoS attack mitigation strategies using OWASP guidelines and configured CORS policies to enhance application security and prevent unauthorized access",
+        "Implemented security best policies to enhance application security and prevent unauthorized access",
         "Prepared well documented of overall workflow and architecture to maintain the proper documentation"
       ],
     },
@@ -145,8 +145,8 @@ import {
       iconBg: "#ead8d0",
       date: "14 Jan 2024 - 24 Apr 2024",
       points: [
-        "Ensure that the infrastructure is scalable, reliable, and secure.",
-        "Establish and maintain continuous integration and deployment pipelines,ensuring that code changes are tested, built, and deployed in a consistent and automated way  .",
+        "Ensure that the infrastructure is scalable, reliable, and secure on AWS.",
+        "Establish and maintain continuous integration and deployment pipelines,ensuring that code changes are tested, built, and deployed in a consistent and automated way with github action and code pipeline  .",
         "Play a crucial role in incident management, responding to and resolving production issues promptly and troubleshoot issues by identifying root causes,and implement preventive measures to minimize future incidents.",
         "Collaborate with development, operations, and other cross-functional teams to ensure smooth and efficient delivery.",
         "Document infrastructure, processes, and procedures to ensure knowledge transfer and enable efficient troubleshooting so as to contribute to internal knowledge bases and share best practices with the team.",
